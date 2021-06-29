@@ -33,7 +33,7 @@ async def filter(client: Bot, message: Message):
         btn = []
         async for msg in client.USER.search_messages(MAINCHANNEL_ID,query=message.text):
             print(msg)
-            file_name = msg.text
+            file_name = msg.text.split("#")[0]
             msg_id = msg.message_id                     
             link = msg.link
             btn.append(
