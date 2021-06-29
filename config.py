@@ -17,7 +17,7 @@ API_HASH = os.environ.get("API_HASH", "8f45dabd56be5ad1619df16af9eca560")
 TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBImQwNKi7sah7jXUvXUrwM3bYktU0Qw2DeBSNxwYuDXjTJUIJOBEpJKtZ6TnpJp6rk3SVKJtbsgFIVinrcXgeN68ixk2LGA1GxFv_tO8OjC8668XqgOF0QAW-uvQeC4DghoIhN-Oh_S97iezfkNUAv9Uzv_nOpYNCwioJ0plARRLpvkZm5eAC3IGti9i3efvkCCKL30-U_GAuovVum8s6-4csnvMStIHYeiC69jsOQIjDdIaPvfIAAWDXG4vtJlZaZkfhi6M1BACNtlu0-NssFe3kZ8LYuQTrId0NXbxCOF5jvkoGL3bnkP_Me3FWGb5cWCE66JeiJU4Xx9p9yVGZLU2K9uQA")
 
 # ID of Channel from which the bot shoul search files
-MAINCHANNEL_ID = os.environ.get("MAINCHANNEL_ID", "-1001341487697")
+MAINCHANNEL_ID = os.environ.get("MAINCHANNEL_ID", "-1001418650646")
 
 
 
