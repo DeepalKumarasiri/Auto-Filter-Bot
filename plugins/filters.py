@@ -32,6 +32,7 @@ async def filter(client: Bot, message: Message):
     if len(message.text) > 2:    
         btn = []
         async for msg in client.USER.search_messages(MAINCHANNEL_ID,query=message.text,filter='photo'):
+            print(msg)
             file_name = msg.caption.split("\n")[0]
             msg_id = msg.message_id                     
             link = msg.link
