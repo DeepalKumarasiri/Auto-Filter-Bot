@@ -36,6 +36,7 @@ async def filter(client: Bot, message: Message):
             file_name = msg.caption.split("\n")[0]
             msg_id = msg.message_id                     
             link = msg.link
+            print(link)
             btn.append(
                 [InlineKeyboardButton(text=f"{file_name}",url=f"{link}")]
             )
