@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "1813445"))
 API_HASH = os.environ.get("API_HASH", "8f45dabd56be5ad1619df16af9eca560")
 
 # Generate a user session string 
-TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBImQwNKi7sah7jXUvXUrwM3bYktU0Qw2DeBSNxwYuDXjTJUIJOBEpJKtZ6TnpJp6rk3SVKJtbsgFIVinrcXgeN68ixk2LGA1GxFv_tO8OjC8668XqgOF0QAW-uvQeC4DghoIhN-Oh_S97iezfkNUAv9Uzv_nOpYNCwioJ0plARRLpvkZm5eAC3IGti9i3efvkCCKL30-U_GAuovVum8s6-4csnvMStIHYeiC69jsOQIjDdIaPvfIAAWDXG4vtJlZaZkfhi6M1BACNtlu0-NssFe3kZ8LYuQTrId0NXbxCOF5jvkoGL3bnkP_Me3FWGb5cWCE66JeiJU4Xx9p9yVGZLU2K9uQA")
+TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBTyd-uQCitlEo9eSDmVh9dcUa1xWaTrWFfWs5QaThn-eblSYOO8IVaS9vygRtOBVkKIjrVbqSmPrNr5IZpvOL9qZJwA-Rc0FVMs5FtpDX5gVnqmJwC7dDgxrHqz1WkEOwiaEfoVyhVXWa7lxEDAoTEKFoUA3nrXADxTmxbI35VBmQktpG5qiDvw5fh0rG1YEFlEpwn55LvgM7UzC6AUG0peYk1BxFuQlmPnga8wsiLpBgq_jhB1FUxUC53gmhqUNfuc8fqvF0aoZRG2Y4wboi8WUj4gm9-fWf4Deu7hdbE4_JOQszDHEp6nkzXsBnFcliW0RY6-sVrs9OSr8Hf7LIGU2K9uQA")
 
 # ID of Channel from which the bot shoul search files
 MAINCHANNEL_ID = os.environ.get("MAINCHANNEL_ID", "-1001341487697")
