@@ -34,9 +34,9 @@ async def filter(client: Bot, message: Message):
         async for msg in client.USER.search_messages(MAINCHANNEL_ID,query=message.text,filter='photo'):
             file_name = msg.caption.split("\n")[0]
             msg_id = msg.message_id                     
-            link = msg.link
+            link = file_name.replace("🎬 ", "").replace("🎬", "").replace("#Episode", "").replace("#Season_01", "").replace("#TV_Show", "").replace("#", "").replace(" ", "+")
             btn.append(
-                [InlineKeyboardButton(text=f"{file_name}",url=f"{link}")]
+                [InlineKeyboardButton(text=f"{file_name}",url=f"https://www.irupc.net/search?q={link}")]
             )
 
         if not btn:
